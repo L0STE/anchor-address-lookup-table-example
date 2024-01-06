@@ -1,0 +1,23 @@
+[package]
+name = "anchor-address-lookup-table-example"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "anchor_address_lookup_table_example"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+solana-address-lookup-table-program = "=1.16.20"
+solana-program = "=1.16.20"
+ahash = "=0.8.6"
+
