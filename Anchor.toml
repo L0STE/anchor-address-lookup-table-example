@@ -7,11 +7,14 @@ skip-lint = false
 [programs.localnet]
 anchor_address_lookup_table_example = "GCxLFEE3BkEUdEnPyWMwZpQWQP9sXSq5wAsq7yR3Rrh"
 
+[programs.devnet]
+anchor_address_lookup_table_example = "GCxLFEE3BkEUdEnPyWMwZpQWQP9sXSq5wAsq7yR3Rrh"
+
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/Users/leo/.config/solana/id.json"
 
 [scripts]
