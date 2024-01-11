@@ -5,10 +5,10 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-anchor_address_lookup_table_example = "GCxLFEE3BkEUdEnPyWMwZpQWQP9sXSq5wAsq7yR3Rrh"
+anchor_address_lookup_table_example = "ALT4bMa1vKx8fAEbrTYFE1cx86HyKV49LpaNHMBcQZTJ"
 
 [programs.devnet]
-anchor_address_lookup_table_example = "GCxLFEE3BkEUdEnPyWMwZpQWQP9sXSq5wAsq7yR3Rrh"
+anchor_address_lookup_table_example = "ALT4bMa1vKx8fAEbrTYFE1cx86HyKV49LpaNHMBcQZTJ"
 
 [registry]
 url = "https://api.apr.dev"
